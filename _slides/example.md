@@ -1,5 +1,6 @@
 ---
-title: Example
+title: Example1802
+date: 2018.02.17
 ---
 
 ## Example Slides
