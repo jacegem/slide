@@ -15,7 +15,7 @@ date: 2018.02.17
 **형식 언어**
 </fragment-block>
 
----- https://goo.gl/R1cQZo?.png bg-zoom slide slow ---->
+---
 
 ## 정규표현식 사용해보기
 
@@ -47,7 +47,7 @@ print("\n".join(result))
 
 <WRAP lo>출처: https://programmers.co.kr/learn/courses/11</WRAP>
 
----- https://goo.gl/c5DKSv?.png bg-zoom slide slow ---->
+---
 
 ## 구성요소
 
@@ -56,7 +56,7 @@ print("\n".join(result))
 - 특수 문자
 - 괄호 (대괄호, 중괄호, 소괄호)
 
----- https://goo.gl/qdF1iK?.png bg-zoom slide slow ---->>
+---
 
 ## 메타 문자
 
@@ -75,7 +75,7 @@ print("\n".join(result))
 <fragment highlight-current-red>|</fragment>
 <fragment> : '**또는**'을 의미한다. (고구려|백제|신라) 를 찾으면 고구려 또는 백제, 신라를 찾게 된다.</fragment>
 
----- https://goo.gl/EUwNxG?.png bg-zoom slide slow ---->>
+---
 
 ## 이스케이프 문자
 
@@ -100,7 +100,7 @@ print("\n".join(result))
 <fragment highlight-current-red>`\t`</fragment>
 <fragment highlight> : 일반적으로 탭(TAB) 키를 입력했을 때 나오는 일정 간격을 유지하는 공백 {{ https://goo.gl/YcDejH}}</fragment>
 
----- https://goo.gl/fQQXU1?.png bg-zoom slide slow ---->
+---
 
 ## 글자 대표문자 \w
 
@@ -190,7 +190,7 @@ print("\n".join(result))
 </fragment-block>
 
 
----- https://goo.gl/WVzZkX?.png bg-zoom slide slow ---->>
+---
 
 ## 특수 문자
 
@@ -203,7 +203,7 @@ print("\n".join(result))
 <fragment highlight-current-red>+</fragment>
 <fragment highlight> : 문자가 하나 이상 존재하는 경우 {{ https://goo.gl/SotRqm}}</fragment>
 
----- https://goo.gl/eccY3q?.png bg-zoom slide slow ---->
+---
 
 ## 하나 이상
 
@@ -233,7 +233,7 @@ print(result)
 </fragment-block>
 
 
----->>
+---
 
 ## 대괄호: 문자 클래스의 집합
 
@@ -251,7 +251,7 @@ print(result)
 <fragment highlight-current-red>`[가-힣]`</fragment>
 <fragment highlight> :  가부터 힣까지의, 한글자모부분을 제외한 한글 집합 {{ https://goo.gl/9dR2DL}}</fragment>
 
----->
+---
 
 ## 대괄호: 문자 클래스의 집합
 
@@ -266,7 +266,7 @@ print(result)
 <fragment highlight-current-red>`[0-9+\-*/\^\(\)=]`</fragment>
 <fragment highlight> : 숫자와 사칙연산 부호 등(+, -, *, /, ^, \=\)을 찾으라는 의미 {{ https://goo.gl/He9CmC}}</fragment>
 
----->
+---
 
 ## 중괄호: 수량자
 
@@ -281,7 +281,7 @@ print(result)
 <fragment highlight-current-red>`[A-Za-z0-9]{4,8}`</fragment>
 <fragment highlight> : 4글자 이상 8글자 이하의 영어 대소문자와 숫자로 이루어진 집합 {{ https://goo.gl/kNseMp}}</fragment>
 
----->
+---
 
 ## 수량자 & 특수문자
 
@@ -290,7 +290,7 @@ print(result)
 |  *  |	{0,} | 문자가 없거나 하나 이상 존재하는 경우 |
 |  +  |	{1,} | 문자가 하나 이상 존재하는 경우 |
 
----->
+---
 
 ## 게으른 수량자 ?
 
@@ -306,7 +306,7 @@ print(result)
 <fragment highlight-current-red>`.{3,}?`</fragment>
 <fragment highlight> : 한 줄을 3글자 단위로 끊은 결과를 보여준다. {{ https://goo.gl/WJPUJD}}</fragment>
 
----->
+---
 
 ## 소괄호: 그룹
 
@@ -327,7 +327,7 @@ print(result)
 
 <WRAP lo><nowiki>출처: https://librewiki.net/wiki/정규표현식</nowiki></WRAP>
 
----->>
+---
 
 ## 사용예시 URL
 
@@ -342,7 +342,7 @@ print(result)
 ### (http|https|ftp|telnet|news|mms)://[^\"'\s()]+
 </fragment-block>
 
----->
+---
 
 ## 사용예시 - 이메일
 
@@ -359,7 +359,7 @@ print(result)
 {{ https://goo.gl/86poyd }}
 </fragment-block>
 
----- https://i.ytimg.com/vi/9HMzwFl5OLY/maxresdefault.jpg bg-zoom slide slow ---->
+---
 
 # 감사합니다.
 
@@ -376,4 +376,4 @@ print(result)
 
 이메일: **jykwon@wavus.co.kr**
 
----->
+---
