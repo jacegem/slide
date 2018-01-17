@@ -30,14 +30,16 @@
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 
+
+
+  <div class="sidebar-item">
+    {%- include adsense-auto.html -%}
+  </div>
+
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
-  </div>
-
-  <div class="sidebar-item">
-    {%- include adsense-auto.html -%}
   </div>
 
 </div>
