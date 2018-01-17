@@ -3,7 +3,7 @@ title: Page2
 layout: page
 ---
 
-## Page1
+## Page2
 
 Using the `jekyll-reveal` template
 
