@@ -9,9 +9,10 @@ permalink:            pretty
 # relative_permalinks:  true
 
 # Setup
-title:                jekyll-reveal
+title:                Slide
 tagline:              'write slides in markdown'
-description:          "A <a href='http://jekyllrb.com'>Jekyll</a> template for quickly writing slides in markdown. Based on <a href='https://github.com/mdo'>mdo</a>'s <a href='http://lanyon.getpoole.com/'>Lanyon</a> theme and <a href='https://github.com/hakimel'>hakimel</a>'s <a href='http://lab.hakim.se/reveal-js'>reveal.js</a> HTML presentation framework. <br><br> Made by <a href='https://github.com/ngoldman'>ngoldman</a>."
+# description:          "A <a href='http://jekyllrb.com'>Jekyll</a> template for quickly writing slides in markdown. Based on <a href='https://github.com/mdo'>mdo</a>'s <a href='http://lanyon.getpoole.com/'>Lanyon</a> theme and <a href='https://github.com/hakimel'>hakimel</a>'s <a href='http://lab.hakim.se/reveal-js'>reveal.js</a> HTML presentation framework. <br><br> Made by <a href='https://github.com/ngoldman'>ngoldman</a>."
+description:          "Made by <a href='https://github.com/jacegem'>jacegem</a>"
 url:                  'https://jacegem.github.io'
 baseurl:              '/slide'
 paginate:             5
