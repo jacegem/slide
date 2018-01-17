@@ -1,9 +1,9 @@
 ---
-title: Page4
-layout: page
+title: Page5
+layout: slides
 ---
 
-## Page4
+## Page5
 
 Using the `jekyll-reveal` template
 
