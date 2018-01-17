@@ -12,7 +12,7 @@ permalink:            pretty
 title:                jekyll-reveal
 tagline:              'write slides in markdown'
 description:          "A <a href='http://jekyllrb.com'>Jekyll</a> template for quickly writing slides in markdown. Based on <a href='https://github.com/mdo'>mdo</a>'s <a href='http://lanyon.getpoole.com/'>Lanyon</a> theme and <a href='https://github.com/hakimel'>hakimel</a>'s <a href='http://lab.hakim.se/reveal-js'>reveal.js</a> HTML presentation framework. <br><br> Made by <a href='https://github.com/ngoldman'>ngoldman</a>."
-url:                  'http://jacegem.github.io'
+url:                  'https://jacegem.github.io'
 baseurl:              '/slide'
 paginate:             5
 
@@ -25,11 +25,11 @@ author:
 version:              1.0.0
 
 github:
-  repo:               https://github.com/ngoldman/jekyll-reveal
+  repo:               https://github.com/jacegem/slide
 
 # Extra
 safe:                 true # replicate gh-pages env
-timezone:             America/Los_Angeles
+timezone:             Asia/Seoul
 encoding:             utf-8
 
 # fix for weird travis-ci build error
