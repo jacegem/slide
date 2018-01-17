@@ -1,5 +1,5 @@
 ---
-title: Page1
+title: Page2
 layout: page
 ---
 
