@@ -48,5 +48,3 @@ defaults:
       type: 'slides'
     values:
       layout: 'slides'
-
-theme: jekyll-theme-time-machine
