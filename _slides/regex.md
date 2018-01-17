@@ -5,15 +5,15 @@ date: 2018.02.17
 
 # 정규표현식
 
-<fragment-block fade-up>
-## 정규표현식의 사전적인 의미
-</fragment-block>
+<p class="fragment fade-up">
+## 정규표현식  의 사전적인 의미
+</p>
 
-<fragment-block fade-up>
+<p class="fragment fade-up">
 특정한 규칙을 가진\\
 **문자열의 집합**을 표현하는데 사용하는\\
 **형식 언어**
-</fragment-block>
+</p>
 
 ---
 
