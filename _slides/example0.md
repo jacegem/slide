@@ -1,6 +1,6 @@
 ---
 title: Example
-theme: moon
+date: 2017.01.17
 ---
 
 ## Example Slides
