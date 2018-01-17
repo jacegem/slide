@@ -4,7 +4,7 @@ title: Slides
 ---
 
 <div class="posts">
-  {%- assign _posts = site.slides | sort: 'order' -%}
+  {%- assign _posts = site.slides | sort: 'date' | reverse -%}
   {% for post in _posts %}
   <div class="post">
     <h1 class="post-title">
