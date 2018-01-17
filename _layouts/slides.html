@@ -14,8 +14,12 @@
     <div class="wrap reveal"><div class="slides">
     <section data-markdown data-separator="^\n---\n$">
         <script type="text/template">
-          {{ content }}
-        </script>
+        {
+  {
+    content;
+  }
+}
+</script>
     </section>
     </div></div>
 
@@ -26,5 +30,17 @@
     <script src="{{ site.baseurl }}/public/js/head.min.js"></script>
     <script src="{{ site.baseurl }}/public/js/reveal.min.js"></script>
     <script src="{{ site.baseurl }}/public/js/shame.js"></script>
+    <scrpit>
+      Reveal.initialize({
+    	// Display the page number of the current slide
+	    slideNumber: true,
+    	keyboard: true,
+      transition: 'slide', // none/fade/slide/convex/concave/zoom
+    	transitionSpeed: 'slow', // default/fast/slow
+	    backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+    	parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+    	parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
+      });
+    </script>
   </body>
 </html>
