@@ -2,8 +2,11 @@
 title: Regex
 date: 2018.02.17
 ---
-
+<!-- .slide: data-background="#ff0000" -->
 # 정규표현식
+
+- Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
+- Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 <p class="fragment fade-up">
 ## 정규표현식  의 사전적인 의미
